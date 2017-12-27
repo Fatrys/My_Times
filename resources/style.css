@@ -22,9 +22,43 @@ nav span {
   display: flex;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: -1px 100px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+
+.article {
+  border: 3px solid black;
+}
+
+.column .large {
+  width: : 630px;
+  display: flex;
+}
+
+.column .medium {
+  width: 300px;
+  display: flex;
+}
+
+.column .small {
+  width: 240px;
+  display: flex;
+}
+
 
 #logo-heading {
   color: mediumaquamarine;
   margin: auto 10px;
-
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
