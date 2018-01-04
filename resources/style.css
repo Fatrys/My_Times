@@ -40,12 +40,10 @@ span {
   display: flex;
   align-content: center;
   margin: 20px 250px;
-  border: green solid 3px;
   justify-content: center;
 }
 
 .column {
-  border: blue solid 2px;
   display: flex;
   margin: 0px 10px;
   flex-direction: column;
@@ -67,7 +65,6 @@ span {
 }
 
 .Story {
-  border: black solid 1px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -75,8 +72,7 @@ span {
 }
 
 .side-story {
- border: black solid 1px;
- margin: 10px;
+ margin: 15px;
 }
 
 .image-heading {
@@ -84,6 +80,7 @@ span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .side-story {
@@ -98,18 +95,18 @@ span {
  #image-1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   padding: 10px 0px 60px 0px;
-  align
 }
 
 #image-2 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  padding: 50px 0px;
+  height: 300px;
   background-repeat: round;
 }
 
 #image-3 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-  padding: 50px 0px;
+  height: 300px;
+  background-repeat: round;
 }
 
 #image-4 {
