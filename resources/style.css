@@ -23,30 +23,41 @@ nav {
   margin: auto 72%;
 }
 
-nav span {
+span {
   margin: auto 10px;
 }
 
 .main {
   display: flex;
-
+  align-content: center;
+  margin: 20px 250px;
+  border: green solid 3px;
+  justify-content: center;
 }
 
 .column {
   border: blue solid 2px;
   display: flex;
   flex-direction: column;
-  margin: 10px 20px;
+  margin: 0px 10px;
 }
 
-.column .large {
+.column, #large {
   width: 630px;
 }
 
-.column .medium {
+.column,  #medium {
   width: 300px;
 }
 
-.column .small {
+.column,  #small {
   width: 240px;
+}
+
+.Story {
+  border: black solid 1px;
+}
+
+.side-story {
+ border: black solid 1px;
 }
