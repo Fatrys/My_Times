@@ -25,7 +25,7 @@ header {
   padding-top: 80px;
 }
 
-nav {
+header nav {
   display: inline-flex;
   flex-direction: row;
   align-content: space-around;
@@ -92,6 +92,24 @@ span {
   display: inline-flex;
 }
 
+#bites-heading {
+  text-align: center;
+}
+
+#bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  flex-direction: column;
+  margin: 0px;
+}
+
+#bites p {
+  border-bottom: black solid 1px;
+  padding: 3px;
+}
+
  #image-1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   padding: 10px 0px 60px 0px;
@@ -113,4 +131,36 @@ span {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   padding: 50px 0px;
   margin-top: 14px;
+}
+
+footer {
+background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px;
+display: flex
+width: 100%;
+text-align: center;
+padding: 100px 0px;
+}
+
+footer .line-1 {
+  display: inline-flex;
+}
+
+footer .line-1 h3 {
+  font-family: Georgia;
+font-size: 18px;
+font-weight: bold;
+color: white;
+padding-right: 8px;
+border-right: white solid 2px;
+margin-right: 40px;
+}
+
+footer nav {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: space-around;
+  margin-top: 10px;
 }
