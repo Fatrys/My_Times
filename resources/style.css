@@ -47,25 +47,22 @@ span {
 .column {
   border: blue solid 2px;
   display: flex;
-  flex-direction: column;
   margin: 0px 10px;
+  flex-direction: column;
 }
 
-.column, #large {
+ #large {
   width: 630px;
-  display: inline-flex;
-}
-
-.column, #story-1 {
-
+  display: flex;
+  flex-direction: column;
 }
 
 
-.column,  #medium {
+#medium {
   width: 300px;
 }
 
-.column,  #small {
+#small {
   width: 240px;
 }
 
