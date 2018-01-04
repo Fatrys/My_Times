@@ -26,3 +26,27 @@ nav {
 nav span {
   margin: auto 10px;
 }
+
+.main {
+  display: flex;
+
+}
+
+.column {
+  border: blue solid 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
